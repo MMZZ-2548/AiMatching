@@ -1,0 +1,421 @@
+{
+  "metrics": {
+    "label": "PUBLIC_OPERATIONAL_BENCHMARK",
+    "name": "Dataset of Home Care Scheduling and Routing Problems with Synchronized Visits",
+    "institution": "University of Strathclyde, UK",
+    "doi": "10.15129/2d4885e1-bc24-414b-83ce-a846fb5c9689",
+    "url": "https://pureportal.strath.ac.uk/en/datasets/dataset-of-home-care-scheduling-and-routing-problems-with-synchro/",
+    "temporal_coverage": "2017-10-01 to 2017-10-14",
+    "not_available_in_dataset": [
+      "skills",
+      "skill_levels",
+      "language",
+      "budget",
+      "rate",
+      "trust_history",
+      "caregiver_preferences",
+      "family_preferences",
+      "mutual_interest",
+      "carer_home_location",
+      "explicit_time_windows",
+      "explicit_synchronization_flag"
+    ],
+    "assumptions": [
+      "time window = scheduled Time ± 30 min (dataset has a single time, not a window)",
+      "CarerCount = 2 interpreted as a synchronized visit requiring two carers simultaneously",
+      "travel measured only between consecutive visits; carer start locations are not in the dataset"
+    ],
+    "carer_count": 138,
+    "visit_count": 6805,
+    "user_count": 236,
+    "synchronized_visit_count": 1493,
+    "matrix_dimension": 236,
+    "date_range": [
+      "2017-10-01",
+      "2017-10-14"
+    ],
+    "tuning_phase": "PRE_TUNING",
+    "what_this_measures": "Correctness of TrustCare availability, double-booking, shift-containment, synchronisation and travel constraints on real operational home-care data. Not an optimisation result and not a matching-quality result (V6 §2, §12).",
+    "total_visits": 6805,
+    "scheduled_visits": 4117,
+    "unscheduled_visits": 2688,
+    "total_assignments": 5023,
+    "scheduling_feasibility_rate_pct": 60.5,
+    "unscheduled_visit_rate_pct": 39.5,
+    "double_booking_count": 0,
+    "shift_containment_violations": 0,
+    "time_window_violation_rate_pct": 0,
+    "time_window_violations": 0,
+    "time_window_note": "window is ASSUMED as scheduled time ± 30 min; the dataset has no window field",
+    "synchronized_visits": 1493,
+    "synchronized_visits_satisfied": 906,
+    "synchronized_visit_success_rate_pct": 60.68,
+    "travel_legs_checked": 4213,
+    "travel_violations": 0,
+    "travel_feasibility_pct": 100,
+    "travel_note": "visit-to-visit legs only; carer start locations are not in the dataset",
+    "assignment_constraint_pass_rate_pct": 100,
+    "visits_shifted_within_window": 3804,
+    "max_shift_used_min": 30,
+    "runtime_ms": 24943,
+    "latency_ms_per_visit": {
+      "p50": 1.734,
+      "p95": 12.446,
+      "p99": 23.892
+    },
+    "generated_at": "2026-08-29T08:04:19.300Z"
+  },
+  "unscheduled_sample": [
+    {
+      "visit_id": "2674814",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 1,
+      "reason": "insufficient carers for synchronized visit at any time in the window"
+    },
+    {
+      "visit_id": "2610155",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 1,
+      "reason": "insufficient carers for synchronized visit at any time in the window"
+    },
+    {
+      "visit_id": "2607767",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2610165",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2686387",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2686508",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2763229",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2774405",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2684496",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2608887",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2673885",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2550515",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2609426",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2867177",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2610210",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2618756",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2743636",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2550977",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2550527",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2688096",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2604598",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2846560",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2784666",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2607775",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2685927",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2717365",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2610218",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2553363",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2620916",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2743671",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2550502",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2760013",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2806549",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2761753",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2807036",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2595598",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2610181",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2743679",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2744963",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2610177",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2607828",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2618478",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2684513",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2716590",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2686500",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2609124",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2686393",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2550249",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2551384",
+      "date": "2017-10-01",
+      "required": 1,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    },
+    {
+      "visit_id": "2674830",
+      "date": "2017-10-01",
+      "required": 2,
+      "available": 0,
+      "reason": "no feasible carer anywhere in the window"
+    }
+  ],
+  "double_booking_examples": []
+}

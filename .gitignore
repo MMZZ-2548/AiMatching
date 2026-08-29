@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+APIKEY*
+
+# deps
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# build / runtime
+dist/
+build/
+*.log
+.DS_Store
+
+# benchmark inputs (large, licensed separately)
+data/strathclyde/
+data/hhcrsp/
+data/hhcrsp2/

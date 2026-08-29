@@ -1,0 +1,230 @@
+{
+ "global_ordering": [
+  "p1",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "p6",
+  "p7",
+  "p8",
+  "p9",
+  "p10",
+  "p11",
+  "p12",
+  "p13",
+  "p14",
+  "p15",
+  "p16",
+  "p17",
+  "p18",
+  "p19",
+  "p20",
+  "p21",
+  "p22",
+  "p23",
+  "p24",
+  "p25"
+ ],
+ "routes": [
+  {
+   "caregiver_id": "c1",
+   "locations": [
+    {
+     "arrival_time": 60,
+     "departure_time": 75,
+     "patient": "p2",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 111.401,
+     "departure_time": 126.401,
+     "patient": "p4",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 240,
+     "departure_time": 255,
+     "patient": "p16",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 408,
+     "departure_time": 423,
+     "patient": "p14",
+     "service": "s1"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c2",
+   "locations": [
+    {
+     "arrival_time": 89.961,
+     "departure_time": 104.961,
+     "patient": "p7",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 132.961,
+     "departure_time": 147.961,
+     "patient": "p11",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 203.504,
+     "departure_time": 218.504,
+     "patient": "p24",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 373.285,
+     "departure_time": 388.285,
+     "patient": "p23",
+     "service": "s2"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c3",
+   "locations": [
+    {
+     "arrival_time": 46,
+     "departure_time": 61,
+     "patient": "p5",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 118,
+     "departure_time": 133,
+     "patient": "p20",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 156.77,
+     "departure_time": 171.77,
+     "patient": "p15",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 210.098,
+     "departure_time": 225.098,
+     "patient": "p18",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 311.452,
+     "departure_time": 326.452,
+     "patient": "p8",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 331.452,
+     "departure_time": 346.452,
+     "patient": "p6",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 376.285,
+     "departure_time": 391.285,
+     "patient": "p23",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 427.026,
+     "departure_time": 442.026,
+     "patient": "p21",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 471,
+     "departure_time": 486,
+     "patient": "p13",
+     "service": "s4"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c4",
+   "locations": [
+    {
+     "arrival_time": 59,
+     "departure_time": 74,
+     "patient": "p12",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 118,
+     "departure_time": 133,
+     "patient": "p20",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 258.504,
+     "departure_time": 273.504,
+     "patient": "p24",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 303.918,
+     "departure_time": 318.918,
+     "patient": "p19",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 339.509,
+     "departure_time": 354.509,
+     "patient": "p9",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 393,
+     "departure_time": 408,
+     "patient": "p1",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 427.026,
+     "departure_time": 442.026,
+     "patient": "p21",
+     "service": "s6"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c5",
+   "locations": [
+    {
+     "arrival_time": 93.038,
+     "departure_time": 108.038,
+     "patient": "p3",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 210.098,
+     "departure_time": 225.098,
+     "patient": "p18",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 303.918,
+     "departure_time": 318.918,
+     "patient": "p19",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 360.547,
+     "departure_time": 375.547,
+     "patient": "p17",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 459.219,
+     "departure_time": 474.219,
+     "patient": "p10",
+     "service": "s5"
+    }
+   ]
+  }
+ ]
+}

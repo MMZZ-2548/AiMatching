@@ -1,0 +1,458 @@
+[
+ {
+  "name": "HHCRSP_100_20_11_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_11_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_100_20_30_1.0_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_30_1.0_R_C.json"
+ },
+ {
+  "name": "HHCRSP_100_20_54_1.2_R_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_54_1.2_R_RC.json"
+ },
+ {
+  "name": "HHCRSP_100_20_57_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_57_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_100_20_61_0.4_R_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_61_0.4_R_RC.json"
+ },
+ {
+  "name": "HHCRSP_100_20_63_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_63_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_100_20_68_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_68_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_100_20_76_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_76_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_100_20_88_1.2_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_88_1.2_C_C.json"
+ },
+ {
+  "name": "HHCRSP_100_20_8_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_8_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_100_20_99_0.4_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_99_0.4_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_100_20_9_1.0_R_R.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_100_20_9_1.0_R_R.json"
+ },
+ {
+  "name": "HHCRSP_10_3_51_1.0_R_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_10_3_51_1.0_R_RC.json"
+ },
+ {
+  "name": "HHCRSP_10_3_90_1.2_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_10_3_90_1.2_C_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_100_0.4_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_100_0.4_C_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_10_1.6_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_10_1.6_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_200_40_17_1.6_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_17_1.6_C_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_17_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_17_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_30_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_30_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_40_1.0_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_40_1.0_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_51_1.0_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_51_1.0_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_52_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_52_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_60_0.4_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_60_0.4_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_200_40_71_1.6_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_71_1.6_C_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_71_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_71_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_75_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_75_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_76_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_76_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_7_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_7_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_7_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_7_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_80_1.0_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_80_1.0_C_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_82_1.0_C_R.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_82_1.0_C_R.json"
+ },
+ {
+  "name": "HHCRSP_200_40_98_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_98_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_200_40_98_1.6_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_200_40_98_1.6_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_300_60_22_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_22_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_23_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_23_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_26_0.4_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_26_0.4_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_300_60_34_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_34_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_45_1.6_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_45_1.6_C_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_46_0.4_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_46_0.4_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_48_0.8_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_48_0.8_C_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_4_1.0_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_4_1.0_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_4_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_4_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_68_0.8_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_68_0.8_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_300_60_69_1.0_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_69_1.0_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_73_0.8_R_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_73_0.8_R_RC.json"
+ },
+ {
+  "name": "HHCRSP_300_60_75_1.2_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_75_1.2_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_300_60_7_1.2_R_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_7_1.2_R_RC.json"
+ },
+ {
+  "name": "HHCRSP_300_60_81_0.8_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_81_0.8_C_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_81_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_81_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_82_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_82_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_85_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_85_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_89_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_89_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_300_60_95_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_300_60_95_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_16_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_16_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_20_0.4_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_20_0.4_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_400_80_22_1.6_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_22_1.6_C_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_28_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_28_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_30_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_30_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_33_1.0_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_33_1.0_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_400_80_34_1.0_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_34_1.0_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_45_0.4_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_45_0.4_C_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_51_1.0_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_51_1.0_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_54_1.2_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_54_1.2_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_400_80_59_1.0_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_59_1.0_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_60_0.8_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_60_0.8_C_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_61_0.4_C_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_61_0.4_C_RC.json"
+ },
+ {
+  "name": "HHCRSP_400_80_65_1.0_C_R.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_65_1.0_C_R.json"
+ },
+ {
+  "name": "HHCRSP_400_80_77_1.2_R_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_77_1.2_R_RC.json"
+ },
+ {
+  "name": "HHCRSP_400_80_81_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_81_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_91_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_91_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_92_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_92_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_400_80_95_1.0_C_R.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_95_1.0_C_R.json"
+ },
+ {
+  "name": "HHCRSP_400_80_97_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_400_80_97_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_50_10_100_1.6_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_50_10_100_1.6_C_C.json"
+ },
+ {
+  "name": "HHCRSP_50_10_44_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_50_10_44_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_50_10_53_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_50_10_53_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_75_15_19_0.8_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_19_0.8_R_C.json"
+ },
+ {
+  "name": "HHCRSP_75_15_21_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_21_1.6_R_C.json"
+ },
+ {
+  "name": "HHCRSP_75_15_30_1.0_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_30_1.0_R_C.json"
+ },
+ {
+  "name": "HHCRSP_75_15_32_1.2_R_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_32_1.2_R_RC.json"
+ },
+ {
+  "name": "HHCRSP_75_15_40_0.8_R_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_40_0.8_R_RC.json"
+ },
+ {
+  "name": "HHCRSP_75_15_63_0.4_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_63_0.4_R_C.json"
+ },
+ {
+  "name": "HHCRSP_75_15_65_1.0_C_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_65_1.0_C_C.json"
+ },
+ {
+  "name": "HHCRSP_75_15_79_1.2_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_79_1.2_R_C.json"
+ },
+ {
+  "name": "HHCRSP_75_15_84_0.8_R_RC.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_84_0.8_R_RC.json"
+ },
+ {
+  "name": "HHCRSP_75_15_98_1.6_R_C.json",
+  "instance": "data/hhcrsp2/instances/kummer/HHCRSP_75_15_98_1.6_R_C.json"
+ },
+ {
+  "name": "InstanzCPLEX_HCSRP_10_1.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzCPLEX_HCSRP_10_1.json"
+ },
+ {
+  "name": "InstanzCPLEX_HCSRP_10_5.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzCPLEX_HCSRP_10_5.json"
+ },
+ {
+  "name": "InstanzCPLEX_HCSRP_25_1.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzCPLEX_HCSRP_25_1.json"
+ },
+ {
+  "name": "InstanzCPLEX_HCSRP_75_7.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzCPLEX_HCSRP_75_7.json"
+ },
+ {
+  "name": "InstanzCPLEX_HCSRP_75_8.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzCPLEX_HCSRP_75_8.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_100_10.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_100_10.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_100_2.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_100_2.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_100_3.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_100_3.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_100_4.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_100_4.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_100_5.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_100_5.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_100_7.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_100_7.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_100_8.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_100_8.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_200_2.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_200_2.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_200_4.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_200_4.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_200_5.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_200_5.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_200_6.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_200_6.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_200_7.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_200_7.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_200_8.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_200_8.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_200_9.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_200_9.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_300_1.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_300_1.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_300_10.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_300_10.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_300_2.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_300_2.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_300_4.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_300_4.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_300_5.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_300_5.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_300_6.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_300_6.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_300_7.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_300_7.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_300_8.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_300_8.json"
+ },
+ {
+  "name": "InstanzVNS_HCSRP_300_9.json",
+  "instance": "data/hhcrsp2/instances/mankowska/InstanzVNS_HCSRP_300_9.json"
+ }
+]

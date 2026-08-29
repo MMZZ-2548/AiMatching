@@ -1,0 +1,211 @@
+{
+  "generated_at": "2026-08-29T13:58:17.574Z",
+  "report_structure": "V6 §18",
+  "evidence_separation_note": "Public benchmarks evidence constraint correctness only. The controlled dataset evidences rule and ranking conformance against team-authored expectations. Neither is matching accuracy, and no figure here may be presented as such (V6 §0, §12).",
+  "section_a_system_tests": {
+    "ran": true,
+    "total": 138,
+    "passed": 138,
+    "failed": 0,
+    "suites": 41,
+    "pass_rate_pct": 100,
+    "duration_ms": 5216.7099609375
+  },
+  "section_b_public_operational": {
+    "label": "PUBLIC_OPERATIONAL_BENCHMARK",
+    "name": "Dataset of Home Care Scheduling and Routing Problems with Synchronized Visits",
+    "institution": "University of Strathclyde, UK",
+    "doi": "10.15129/2d4885e1-bc24-414b-83ce-a846fb5c9689",
+    "url": "https://pureportal.strath.ac.uk/en/datasets/dataset-of-home-care-scheduling-and-routing-problems-with-synchro/",
+    "temporal_coverage": "2017-10-01 to 2017-10-14",
+    "not_available_in_dataset": [
+      "skills",
+      "skill_levels",
+      "language",
+      "budget",
+      "rate",
+      "trust_history",
+      "caregiver_preferences",
+      "family_preferences",
+      "mutual_interest",
+      "carer_home_location",
+      "explicit_time_windows",
+      "explicit_synchronization_flag"
+    ],
+    "assumptions": [
+      "time window = scheduled Time ± 30 min (dataset has a single time, not a window)",
+      "CarerCount = 2 interpreted as a synchronized visit requiring two carers simultaneously",
+      "travel measured only between consecutive visits; carer start locations are not in the dataset"
+    ],
+    "carer_count": 138,
+    "visit_count": 6805,
+    "user_count": 236,
+    "synchronized_visit_count": 1493,
+    "matrix_dimension": 236,
+    "date_range": [
+      "2017-10-01",
+      "2017-10-14"
+    ],
+    "tuning_phase": "PRE_TUNING",
+    "what_this_measures": "Correctness of TrustCare availability, double-booking, shift-containment, synchronisation and travel constraints on real operational home-care data. Not an optimisation result and not a matching-quality result (V6 §2, §12).",
+    "total_visits": 6805,
+    "scheduled_visits": 4117,
+    "unscheduled_visits": 2688,
+    "total_assignments": 5023,
+    "scheduling_feasibility_rate_pct": 60.5,
+    "unscheduled_visit_rate_pct": 39.5,
+    "double_booking_count": 0,
+    "shift_containment_violations": 0,
+    "time_window_violation_rate_pct": 0,
+    "time_window_violations": 0,
+    "time_window_note": "window is ASSUMED as scheduled time ± 30 min; the dataset has no window field",
+    "synchronized_visits": 1493,
+    "synchronized_visits_satisfied": 906,
+    "synchronized_visit_success_rate_pct": 60.68,
+    "travel_legs_checked": 4213,
+    "travel_violations": 0,
+    "travel_feasibility_pct": 100,
+    "travel_note": "visit-to-visit legs only; carer start locations are not in the dataset",
+    "assignment_constraint_pass_rate_pct": 100,
+    "visits_shifted_within_window": 3804,
+    "max_shift_used_min": 30,
+    "runtime_ms": 24943,
+    "latency_ms_per_visit": {
+      "p50": 1.734,
+      "p95": 12.446,
+      "p99": 23.892
+    },
+    "generated_at": "2026-08-29T08:04:19.300Z"
+  },
+  "section_c_public_academic": {
+    "label": "PUBLIC_ACADEMIC_BENCHMARK",
+    "name": "Data and Toolbox Repository for the Home Healthcare Routing and Scheduling Problem",
+    "institution": "Intelligent Optimization Laboratory, Università degli Studi di Udine, Italy",
+    "repository": "https://github.com/iolab-uniud/hhcrsp",
+    "paper_doi": "10.1111/itor.13585",
+    "license": "MIT",
+    "service_code_note": "service codes s1..sN are compatibility proxies with no clinical meaning in this dataset (V6 §3)",
+    "not_available_in_dataset": [
+      "language",
+      "budget",
+      "rate",
+      "trust_history",
+      "family_preference",
+      "caregiver_job_preference",
+      "mutual_interest",
+      "care_style",
+      "continuity"
+    ],
+    "tuning_phase": "PRE_TUNING",
+    "instance_families": [
+      "mankowska",
+      "kummer",
+      "Italian"
+    ],
+    "instances_run": 341,
+    "what_this_measures": "Whether TrustCare ever assigns work whose mandatory service/skill requirement the caregiver does not meet, and whether time-window, synchronization and route constraints hold. Not a solution-quality or optimisation result (V6 §3, §12).",
+    "total_tasks": 66952,
+    "assigned_tasks": 63589,
+    "mandatory_service_coverage_rate_pct": 94.98,
+    "invalid_skill_service_assignments": 0,
+    "invalid_skill_service_assignment_rate_pct": 0,
+    "time_window_violations": 0,
+    "time_window_pass_rate_pct": 100,
+    "caregiver_overlaps": 0,
+    "synchronized_patients": 14679,
+    "synchronized_patients_staffed": 13833,
+    "synchronized_patients_unstaffed": 846,
+    "synchronized_satisfied": 13833,
+    "synchronization_pass_rate_pct": 100,
+    "synchronization_coverage_pct": 94.24,
+    "route_legs_checked": 63589,
+    "route_violations": 0,
+    "route_validity_pct": 100,
+    "constraint_satisfaction_rate_pct": 100,
+    "failure_cases_by_rule": {},
+    "runtime_ms": 51108,
+    "latency_ms_per_instance": {
+      "p50": 32.222,
+      "p95": 730.043,
+      "p99": 1036.832
+    },
+    "generated_at": "2026-08-29T13:57:51.369Z"
+  },
+  "section_c_independent_validator": {
+    "validator": "iolab-uniud/hhcrsp validator (upstream, MIT) — not written by TrustCare",
+    "solutions_submitted": 341,
+    "judged": 125,
+    "valid": 125,
+    "invalid": 0,
+    "skipped_incomplete_coverage": 216,
+    "validator_pass_rate_pct": 100,
+    "note": "The upstream validator requires every patient in an instance to be served before it will assess constraints, so instances our greedy policy left partially covered cannot be judged. Coverage is a property of that policy; this figure is about whether the assignments actually made satisfy the published constraints."
+  },
+  "section_d_controlled": {
+    "label": "CONTROLLED_TEST",
+    "source": "TrustCare Controlled Mutual Matching Benchmark (team-created)",
+    "disclaimer": "Measures rule and ranking conformance against team-authored expectations. NOT matching accuracy: this dataset has no ground truth for which caregiver is genuinely best (V6 §0, §12).",
+    "total_cases": 120,
+    "passed": 120,
+    "failed": 0,
+    "overall_conformance_pct": 100,
+    "group_a_hard_filter": {
+      "cases": 30,
+      "hard_filter_accuracy_pct": 100,
+      "formula": "correct_filter_decisions / total_hard_filter_cases * 100"
+    },
+    "group_b_family_fit": {
+      "cases": 25,
+      "pairwise_ranking_agreement_pct": 100,
+      "score_stability_pct": 100
+    },
+    "group_c_job_fit": {
+      "cases": 25,
+      "job_ranking_agreement_pct": 100,
+      "preference_constraint_pass_pct": 100,
+      "invalid_recommendation_rate_pct": 0,
+      "invalid_recommendations": 0
+    },
+    "group_d_mutual_fit": {
+      "cases": 20,
+      "mutual_formula_agreement_pct": 100,
+      "one_sided_bias_test_pct": 100,
+      "two_direction_symmetry_pct": 100
+    },
+    "group_e_exceptional": {
+      "cases": 10,
+      "exceptional_match_rule_accuracy_pct": 100,
+      "safety_override_accuracy_pct": 100,
+      "additional_cost_disclosure_pass_pct": 100
+    },
+    "group_f_trust": {
+      "cases": 10,
+      "trust_penalty_false_positive_rate_pct": 0,
+      "rebook_signal_pass_pct": 100,
+      "cold_start_conformance_pct": 100
+    },
+    "latency_ms": {
+      "p50": 0.06,
+      "p95": 0.204,
+      "p99": 0.513,
+      "total": 10.42
+    },
+    "score_version": "matching-v4",
+    "weight_version": "weights-v4-default",
+    "tuning_phase": "PRE_TUNING",
+    "generated_at": "2026-08-29T05:40:32.813Z"
+  },
+  "section_e_limitations": [
+    "No dataset used here has ground truth for which caregiver is genuinely the best match, so no accuracy figure is claimed (V6 §0).",
+    "Strathclyde has no time-window field; windows are assumed as the scheduled time ±30 min and every time-window figure depends on that assumption.",
+    "Strathclyde has no carer home locations, so travel is measured between consecutive visits only.",
+    "Strathclyde has no explicit synchronization flag; CarerCount = 2 is interpreted as a synchronized visit.",
+    "Strathclyde and HHCRSP contain no skills-with-levels, language, budget, trust or preference data, so Family Fit, Job Fit and Mutual Fit are NOT evidenced by either.",
+    "HHCRSP service codes s1..sN are compatibility proxies with no clinical meaning (V6 §3).",
+    "The upstream HHCRSP validator requires every patient in an instance to be served, so it could only judge the instances the greedy policy covered completely; the rest are reported as skipped, not as passes.",
+    "Scheduling feasibility and service coverage figures reflect a deterministic greedy assignment policy, not an optimiser; they are not comparable to published optimal solutions.",
+    "The controlled 120 cases were authored by the team. They test conformance to the specification, not real-world outcomes or user satisfaction.",
+    "The Supabase schema is applied (42 tables, 32 RLS policies) and the two-sided flow was exercised end to end against it. The benchmark figures in this report were produced against the in-process store, which enforces the same rules and drives the same pure matching engine.",
+    "Smart Intake, the Care Advisor and report structuring depend on an external model; their output is not deterministic and is excluded from every conformance figure."
+  ]
+}

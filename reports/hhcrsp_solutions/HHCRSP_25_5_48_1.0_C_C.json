@@ -1,0 +1,236 @@
+{
+ "global_ordering": [
+  "p1",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "p6",
+  "p7",
+  "p8",
+  "p9",
+  "p10",
+  "p11",
+  "p12",
+  "p13",
+  "p14",
+  "p15",
+  "p16",
+  "p17",
+  "p18",
+  "p19",
+  "p20",
+  "p21",
+  "p22",
+  "p23",
+  "p24",
+  "p25"
+ ],
+ "routes": [
+  {
+   "caregiver_id": "c1",
+   "locations": [
+    {
+     "arrival_time": 481,
+     "departure_time": 502,
+     "patient": "p7",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 621,
+     "departure_time": 646,
+     "patient": "p14",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 658,
+     "departure_time": 686,
+     "patient": "p2",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 772,
+     "departure_time": 818,
+     "patient": "p1",
+     "service": "s3"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c2",
+   "locations": [
+    {
+     "arrival_time": 492,
+     "departure_time": 521,
+     "patient": "p8",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 536,
+     "departure_time": 587,
+     "patient": "p11",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 724,
+     "departure_time": 773,
+     "patient": "p6",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 822,
+     "departure_time": 881,
+     "patient": "p9",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 888,
+     "departure_time": 906,
+     "patient": "p22",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 933,
+     "departure_time": 984,
+     "patient": "p23",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 1019,
+     "departure_time": 1064,
+     "patient": "p3",
+     "service": "s2"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c3",
+   "locations": [
+    {
+     "arrival_time": 498,
+     "departure_time": 538,
+     "patient": "p7",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 598,
+     "departure_time": 653,
+     "patient": "p18",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 670,
+     "departure_time": 707,
+     "patient": "p2",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 822,
+     "departure_time": 880,
+     "patient": "p9",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 908,
+     "departure_time": 958,
+     "patient": "p19",
+     "service": "s6"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c4",
+   "locations": [
+    {
+     "arrival_time": 555,
+     "departure_time": 614,
+     "patient": "p20",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 621,
+     "departure_time": 677,
+     "patient": "p4",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 707,
+     "departure_time": 736,
+     "patient": "p12",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 749,
+     "departure_time": 802,
+     "patient": "p6",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 888,
+     "departure_time": 903,
+     "patient": "p22",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 910,
+     "departure_time": 930,
+     "patient": "p25",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 959,
+     "departure_time": 1001,
+     "patient": "p10",
+     "service": "s6"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c5",
+   "locations": [
+    {
+     "arrival_time": 559,
+     "departure_time": 591,
+     "patient": "p5",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 611,
+     "departure_time": 632,
+     "patient": "p13",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 641,
+     "departure_time": 698,
+     "patient": "p14",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 713,
+     "departure_time": 735,
+     "patient": "p24",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 844,
+     "departure_time": 888,
+     "patient": "p16",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 893,
+     "departure_time": 944,
+     "patient": "p21",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 1019,
+     "departure_time": 1062,
+     "patient": "p3",
+     "service": "s4"
+    }
+   ]
+  }
+ ]
+}

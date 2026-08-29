@@ -1,0 +1,2149 @@
+{
+  "metrics": {
+    "label": "CONTROLLED_TEST",
+    "source": "TrustCare Controlled Mutual Matching Benchmark (team-created)",
+    "disclaimer": "Measures rule and ranking conformance against team-authored expectations. NOT matching accuracy: this dataset has no ground truth for which caregiver is genuinely best (V6 §0, §12).",
+    "total_cases": 120,
+    "passed": 120,
+    "failed": 0,
+    "overall_conformance_pct": 100,
+    "group_a_hard_filter": {
+      "cases": 30,
+      "hard_filter_accuracy_pct": 100,
+      "formula": "correct_filter_decisions / total_hard_filter_cases * 100"
+    },
+    "group_b_family_fit": {
+      "cases": 25,
+      "pairwise_ranking_agreement_pct": 100,
+      "score_stability_pct": 100
+    },
+    "group_c_job_fit": {
+      "cases": 25,
+      "job_ranking_agreement_pct": 100,
+      "preference_constraint_pass_pct": 100,
+      "invalid_recommendation_rate_pct": 0,
+      "invalid_recommendations": 0
+    },
+    "group_d_mutual_fit": {
+      "cases": 20,
+      "mutual_formula_agreement_pct": 100,
+      "one_sided_bias_test_pct": 100,
+      "two_direction_symmetry_pct": 100
+    },
+    "group_e_exceptional": {
+      "cases": 10,
+      "exceptional_match_rule_accuracy_pct": 100,
+      "safety_override_accuracy_pct": 100,
+      "additional_cost_disclosure_pass_pct": 100
+    },
+    "group_f_trust": {
+      "cases": 10,
+      "trust_penalty_false_positive_rate_pct": 0,
+      "rebook_signal_pass_pct": 100,
+      "cold_start_conformance_pct": 100
+    },
+    "latency_ms": {
+      "p50": 0.06,
+      "p95": 0.204,
+      "p99": 0.513,
+      "total": 10.42
+    },
+    "score_version": "matching-v4",
+    "weight_version": "weights-v4-default",
+    "tuning_phase": "PRE_TUNING",
+    "generated_at": "2026-08-29T05:40:32.813Z"
+  },
+  "results": [
+    {
+      "case_id": "A01",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A01 high trust + missing mandatory skill",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "mandatory_required_skill"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "mandatory_required_skill"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A02",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A02 perfect skills + unavailable",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "availability"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "availability"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A03",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A04 mandatory language mismatch",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "mandatory_language"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "mandatory_language"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A04",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A05 caregiver refuses a MUST_DO task",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "caregiver_task_exclusion"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "caregiver_task_exclusion"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A05",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A09 verification pending",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "verification_status"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "verification_status"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A06",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A09b verification rejected",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "verification_status"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "verification_status"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A07",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A09c unverified caregiver",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "verification_status"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "verification_status"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A08",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "minimum skill level not met",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "minimum_skill_level"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "minimum_skill_level"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A09",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "both mandatory skills missing",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "mandatory_required_skill"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "mandatory_required_skill"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A10",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "night capability absent for a day job is irrelevant",
+      "expected": {
+        "decision": "ELIGIBLE"
+      },
+      "actual": {
+        "eligible": true,
+        "failed_filters": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A11",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A03 outside radius, no exceptional opt-in",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "service_radius"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "service_radius"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A12",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A06 heavy lifting required, caregiver refuses",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "heavy_lifting"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "heavy_lifting"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A13",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A07 hospital escort required, caregiver refuses",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "hospital_escort"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "hospital_escort"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A14",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A08 mandatory credential missing",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "mandatory_credential"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "mandatory_credential"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A15",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A10 budget below minimum, negotiation disabled",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "budget_below_minimum"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "budget_below_minimum"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A16",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "night monitoring, caregiver refuses nights",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "availability"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "availability"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A17",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "live-in required, caregiver refuses",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "live_in"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "live_in"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A18",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "mandatory gender mismatch",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "mandatory_gender"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "mandatory_gender"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A19",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "shift longer than the caregiver ceiling",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "shift_length"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "availability",
+          "shift_length"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A20",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A08b credential present but unverified",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "mandatory_credential"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "mandatory_credential"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A21",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "A08c credential verified but expired",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "mandatory_credential"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "mandatory_credential"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A22",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "credential verified and current passes",
+      "expected": {
+        "decision": "ELIGIBLE"
+      },
+      "actual": {
+        "eligible": true,
+        "failed_filters": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A23",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "optional language mismatch scores lower but does not filter",
+      "expected": {
+        "decision": "ELIGIBLE"
+      },
+      "actual": {
+        "eligible": true,
+        "failed_filters": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A24",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "gender preference that is not MANDATORY never filters",
+      "expected": {
+        "decision": "ELIGIBLE"
+      },
+      "actual": {
+        "eligible": true,
+        "failed_filters": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A25",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "budget exactly at the minimum is allowed",
+      "expected": {
+        "decision": "ELIGIBLE"
+      },
+      "actual": {
+        "eligible": true,
+        "failed_filters": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A26",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "distance exactly at the radius boundary is allowed",
+      "expected": {
+        "decision": "ELIGIBLE"
+      },
+      "actual": {
+        "eligible": true,
+        "failed_filters": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A27",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "fully matching control",
+      "expected": {
+        "decision": "ELIGIBLE"
+      },
+      "actual": {
+        "eligible": true,
+        "failed_filters": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A28",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "shift exactly at the ceiling is allowed",
+      "expected": {
+        "decision": "ELIGIBLE"
+      },
+      "actual": {
+        "eligible": true,
+        "failed_filters": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A29",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "MUST_DO task the caregiver merely does not prefer still filters",
+      "expected": {
+        "decision": "FILTER_OUT",
+        "failed_filter": "caregiver_task_exclusion"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "caregiver_task_exclusion"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "A30",
+      "group": "A",
+      "kind": "DECISION",
+      "title": "a non-MUST_DO excluded task does not filter",
+      "expected": {
+        "decision": "ELIGIBLE"
+      },
+      "actual": {
+        "eligible": true,
+        "failed_filters": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B01",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "B01 direct condition experience wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 87.36
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B02",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "B02 nearer caregiver wins on final fit",
+      "expected": {
+        "comparison": "GT",
+        "score": "final_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.63,
+        "loser": 90.99
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B03",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "more years of experience wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 96.11,
+        "loser": 94.44
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B04",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "higher skill level wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 93.47
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B05",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "higher trust history wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 96.53,
+        "loser": 94.31
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B06",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "rate inside budget wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 93.61
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B07",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "task preference alignment wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 93.03
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B08",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "transport available wins when escort is needed",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 93.62
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B09",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "wider availability window wins on schedule slack",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 90.36
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B10",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "heavy-capable caregiver wins a heavy job",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 90.25
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B11",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "more condition experience years is not worse",
+      "expected": {
+        "comparison": "GTE",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 95.69
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B12",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "dementia-capable wins a dementia case",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 92.14
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B13",
+      "group": "B",
+      "kind": "RANKING",
+      "title": "language coverage wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-A",
+        "loser": "CG-B"
+      },
+      "actual": {
+        "winner": 95.69,
+        "loser": 93.47
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B14",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "B03 high trust / weak coverage vs lower trust / full coverage",
+      "expected": {
+        "comparison": "DETERMINISTIC",
+        "note": "V6 §7 B03 leaves the winner weight-dependent; asserted as reproducibility, not ordering"
+      },
+      "actual": {
+        "runs": [
+          88.55,
+          96.87
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B15",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 2 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          96.05
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B16",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 4 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          95.76
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B17",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 6 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          95.48
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B18",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 8 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          95.2
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B19",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 10 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          94.91
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B20",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 12 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          94.63
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B21",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 14 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          93.99
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B22",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 16 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          93.22
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B23",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 18 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          92.46
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B24",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 20 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          91.7
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "B25",
+      "group": "B",
+      "kind": "STABILITY",
+      "title": "score stability at 22 km",
+      "expected": {
+        "comparison": "DETERMINISTIC"
+      },
+      "actual": {
+        "runs": [
+          90.93
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C01",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "C01 near + on-rate + day beats far + underpaid + night",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.08,
+        "base_job_fit_B": 95.94
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C02",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "C02 long-term caregiver prefers recurring work",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.08,
+        "base_job_fit_B": 89.87
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C03",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "C03 workload-averse caregiver scores a heavy job lower",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.08,
+        "base_job_fit_B": 95
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C04",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "higher budget wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.08,
+        "base_job_fit_B": 96.65
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C05",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "shorter travel wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "final_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "final_job_fit_A": 97.72,
+        "final_job_fit_B": 91.32
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C06",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "day shift preferred when nights are refused",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.08,
+        "base_job_fit_B": 85.26
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C07",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "a job matching preferred task types wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.08,
+        "base_job_fit_B": 96.15
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C08",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "escort-capable caregiver prefers the escort job they opted into",
+      "expected": {
+        "comparison": "GTE",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.17,
+        "base_job_fit_B": 98.08
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C09",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "a job within condition experience wins",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.08,
+        "base_job_fit_B": 91.67
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C10",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "fuller shift beats a very short one",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.08,
+        "base_job_fit_B": 95.19
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C11",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "pet-free home preferred when the caregiver cannot work with pets",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.15,
+        "base_job_fit_B": 94.44
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C12",
+      "group": "C",
+      "kind": "RANKING",
+      "title": "smoke-free home preferred",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_job_fit",
+        "winner_job": "JOB-A",
+        "loser_job": "JOB-B"
+      },
+      "actual": {
+        "base_job_fit_A": 98.15,
+        "base_job_fit_B": 94.44
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C13",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver who refuses nights is never recommended a night job",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "availability"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C14",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver who refuses lifting is never recommended a lifting job",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "heavy_lifting"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C15",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver who refuses escort is never recommended an escort job",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "hospital_escort"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C16",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver who refuses live-in is never recommended live-in work",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "live_in"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C17",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver is never recommended a job below their minimum rate",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "budget_below_minimum"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C18",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver is never recommended a shift beyond their ceiling",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "availability",
+          "shift_length"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C19",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver is never recommended a job outside their radius",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "service_radius"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C20",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver is never recommended a task they exclude",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "caregiver_task_exclusion"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C21",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver is never recommended work needing a skill they lack",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "mandatory_required_skill"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C22",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver is never recommended work in a language they lack",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "mandatory_language"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C23",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "an unverified caregiver receives no recommendations at all",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "verification_status"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C24",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "a caregiver is never recommended a job clashing with an accepted one",
+      "expected": {
+        "decision": "NOT_RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 0,
+        "failed_filters": [
+          "availability"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "C25",
+      "group": "C",
+      "kind": "DECISION",
+      "title": "an eligible caregiver IS recommended (control)",
+      "expected": {
+        "decision": "RECOMMENDED"
+      },
+      "actual": {
+        "recommended": 1
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D01",
+      "group": "D",
+      "kind": "FORMULA",
+      "title": "D01 family 95 / job 45 → moderate",
+      "expected": {
+        "mutual": 75,
+        "band": "MODERATE"
+      },
+      "actual": {
+        "mutual": 75,
+        "band": "MODERATE"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D02",
+      "group": "D",
+      "kind": "FORMULA",
+      "title": "D02 family 88 / job 90 → high",
+      "expected": {
+        "mutual": 88.8,
+        "band": "HIGH"
+      },
+      "actual": {
+        "mutual": 88.8,
+        "band": "HIGH"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D03",
+      "group": "D",
+      "kind": "FORMULA",
+      "title": "D03 family 92 / job 93 → top",
+      "expected": {
+        "mutual": 92.4,
+        "band": "HIGH"
+      },
+      "actual": {
+        "mutual": 92.4,
+        "band": "HIGH"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D04",
+      "group": "D",
+      "kind": "FORMULA",
+      "title": "V5 §24 example 96 / 94",
+      "expected": {
+        "mutual": 95.19999999999999,
+        "band": "HIGH"
+      },
+      "actual": {
+        "mutual": 95.2,
+        "band": "HIGH"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D05",
+      "group": "D",
+      "kind": "FORMULA",
+      "title": "balanced mid pair",
+      "expected": {
+        "mutual": 70,
+        "band": "MODERATE"
+      },
+      "actual": {
+        "mutual": 70,
+        "band": "MODERATE"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D06",
+      "group": "D",
+      "kind": "FORMULA",
+      "title": "both low",
+      "expected": {
+        "mutual": 40,
+        "band": "LOW"
+      },
+      "actual": {
+        "mutual": 40,
+        "band": "LOW"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D07",
+      "group": "D",
+      "kind": "FORMULA",
+      "title": "family high job very low still clears 60 — the 0.60/0.40 family bias, SCORING_SPEC §6",
+      "expected": {
+        "mutual": 63.4,
+        "band": "MODERATE"
+      },
+      "actual": {
+        "mutual": 63.4,
+        "band": "MODERATE"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D08",
+      "group": "D",
+      "kind": "FORMULA",
+      "title": "job high family very low",
+      "expected": {
+        "mutual": 45.6,
+        "band": "LOW"
+      },
+      "actual": {
+        "mutual": 45.6,
+        "band": "LOW"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D09",
+      "group": "D",
+      "kind": "FORMULA_ORDER",
+      "title": "D04 one-sided 98/40 ranks below balanced 90/90",
+      "expected": {
+        "lower": [
+          98,
+          40
+        ],
+        "higher": [
+          90,
+          90
+        ]
+      },
+      "actual": {
+        "lower": 74.8,
+        "higher": 90
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D10",
+      "group": "D",
+      "kind": "FORMULA_ORDER",
+      "title": "one-sided 100/30 ranks below balanced 80/80",
+      "expected": {
+        "lower": [
+          100,
+          30
+        ],
+        "higher": [
+          80,
+          80
+        ]
+      },
+      "actual": {
+        "lower": 72,
+        "higher": 80
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D11",
+      "group": "D",
+      "kind": "FORMULA_ORDER",
+      "title": "balanced 85/85 ranks above 95/60",
+      "expected": {
+        "lower": [
+          95,
+          60
+        ],
+        "higher": [
+          85,
+          85
+        ]
+      },
+      "actual": {
+        "lower": 81,
+        "higher": 85
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D12",
+      "group": "D",
+      "kind": "FORMULA_ORDER",
+      "title": "balanced 75/75 ranks above 90/45",
+      "expected": {
+        "lower": [
+          90,
+          45
+        ],
+        "higher": [
+          75,
+          75
+        ]
+      },
+      "actual": {
+        "lower": 72,
+        "higher": 75
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D13",
+      "group": "D",
+      "kind": "FORMULA_ORDER",
+      "title": "a slightly more balanced pair with the same family fit wins",
+      "expected": {
+        "lower": [
+          92,
+          84
+        ],
+        "higher": [
+          92,
+          88
+        ]
+      },
+      "actual": {
+        "lower": 88.8,
+        "higher": 90.4
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D14",
+      "group": "D",
+      "kind": "SYMMETRY",
+      "title": "both directions agree on the same pair (1)",
+      "expected": {
+        "comparison": "IDENTICAL"
+      },
+      "actual": {
+        "family_side": 96.64,
+        "caregiver_side": 96.64
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D15",
+      "group": "D",
+      "kind": "SYMMETRY",
+      "title": "both directions agree on the same pair (2)",
+      "expected": {
+        "comparison": "IDENTICAL"
+      },
+      "actual": {
+        "family_side": 96.08,
+        "caregiver_side": 96.08
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D16",
+      "group": "D",
+      "kind": "SYMMETRY",
+      "title": "both directions agree on the same pair (3)",
+      "expected": {
+        "comparison": "IDENTICAL"
+      },
+      "actual": {
+        "family_side": 95.53,
+        "caregiver_side": 95.53
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D17",
+      "group": "D",
+      "kind": "SYMMETRY",
+      "title": "both directions agree on the same pair (4)",
+      "expected": {
+        "comparison": "IDENTICAL"
+      },
+      "actual": {
+        "family_side": 95,
+        "caregiver_side": 95
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D18",
+      "group": "D",
+      "kind": "SYMMETRY",
+      "title": "both directions agree on the same pair (5)",
+      "expected": {
+        "comparison": "IDENTICAL"
+      },
+      "actual": {
+        "family_side": 94.11,
+        "caregiver_side": 94.11
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D19",
+      "group": "D",
+      "kind": "SYMMETRY",
+      "title": "both directions agree on the same pair (6)",
+      "expected": {
+        "comparison": "IDENTICAL"
+      },
+      "actual": {
+        "family_side": 92.86,
+        "caregiver_side": 92.86
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "D20",
+      "group": "D",
+      "kind": "SYMMETRY",
+      "title": "both directions agree on the same pair (7)",
+      "expected": {
+        "comparison": "IDENTICAL"
+      },
+      "actual": {
+        "family_side": 91.62,
+        "caregiver_side": 91.62
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E01",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "E01 fit ≥ 90, 145 km, both opt-in",
+      "expected": {
+        "decision": "EXCEPTIONAL_MATCH"
+      },
+      "actual": {
+        "exceptional": true,
+        "base_mutual_fit": 97.4,
+        "cost": {
+          "travel": 1450,
+          "accommodation": 0,
+          "total_extra": 1450,
+          "accommodation_required": false,
+          "currency": "THB",
+          "label": "Estimated additional cost",
+          "is_final_price": false
+        },
+        "blockers": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E02",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "E02 caregiver has not opted in",
+      "expected": {
+        "decision": "NOT_SHOWN"
+      },
+      "actual": {
+        "exceptional": false,
+        "eligible": false,
+        "blockers": [
+          "caregiver has not opted in to out-of-area work"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E03",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "E03 family has not opted in",
+      "expected": {
+        "decision": "NOT_SHOWN"
+      },
+      "actual": {
+        "exceptional": false,
+        "eligible": false,
+        "blockers": [
+          "family has not opted in to out-of-area caregivers"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E04",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "E04 base fit below threshold",
+      "expected": {
+        "decision": "NOT_EXCEPTIONAL"
+      },
+      "actual": {
+        "exceptional": false,
+        "base_mutual_fit": 76.99,
+        "blockers": [
+          "base mutual fit 77.0 < 90"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E05",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "E05 missing mandatory skill is never rescued by distance",
+      "expected": {
+        "decision": "FILTER_OUT"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "mandatory_required_skill",
+          "service_radius"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E06",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "V5 case 5 fit 91 at 45 km",
+      "expected": {
+        "decision": "EXCEPTIONAL_MATCH"
+      },
+      "actual": {
+        "exceptional": true,
+        "base_mutual_fit": 97.4,
+        "cost": {
+          "travel": 450,
+          "accommodation": 0,
+          "total_extra": 450,
+          "accommodation_required": false,
+          "currency": "THB",
+          "label": "Estimated additional cost",
+          "is_final_price": false
+        },
+        "blockers": []
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E07",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "beyond the platform maximum distance",
+      "expected": {
+        "decision": "NOT_SHOWN"
+      },
+      "actual": {
+        "exceptional": false,
+        "eligible": false,
+        "blockers": [
+          "320km > platform max 300km",
+          "320km beyond caregiver limit 300km"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E08",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "beyond the caregiver personal out-of-area limit",
+      "expected": {
+        "decision": "NOT_SHOWN"
+      },
+      "actual": {
+        "exceptional": false,
+        "eligible": false,
+        "blockers": [
+          "145km beyond caregiver limit 100km"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E09",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "unavailable AND far is filtered, never exceptional",
+      "expected": {
+        "decision": "FILTER_OUT"
+      },
+      "actual": {
+        "eligible": false,
+        "failed_filters": [
+          "availability",
+          "service_radius"
+        ]
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "E10",
+      "group": "E",
+      "kind": "DECISION",
+      "title": "accommodation is disclosed past the caregiver threshold",
+      "expected": {
+        "decision": "EXCEPTIONAL_WITH_ACCOMMODATION"
+      },
+      "actual": {
+        "exceptional": true,
+        "cost": {
+          "travel": 1450,
+          "accommodation": 700,
+          "total_extra": 2150,
+          "accommodation_required": true,
+          "currency": "THB",
+          "label": "Estimated additional cost",
+          "is_final_price": false
+        }
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F01",
+      "group": "F",
+      "kind": "TRUST",
+      "title": "F01 unconfirmed incident → no penalty",
+      "expected": {
+        "decision": "NO_PENALTY"
+      },
+      "actual": {
+        "trust_score": 79,
+        "family_review": 80,
+        "penalised_incidents": 0,
+        "trust_status": "ESTABLISHED"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F02",
+      "group": "F",
+      "kind": "TRUST",
+      "title": "F01b GPS/geofence event alone → no penalty",
+      "expected": {
+        "decision": "NO_PENALTY"
+      },
+      "actual": {
+        "trust_score": 79,
+        "family_review": 80,
+        "penalised_incidents": 0,
+        "trust_status": "ESTABLISHED"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F03",
+      "group": "F",
+      "kind": "TRUST",
+      "title": "F02 confirmed caregiver-responsible incident → penalty",
+      "expected": {
+        "decision": "PENALTY"
+      },
+      "actual": {
+        "trust_score": 76.5,
+        "family_review": 80,
+        "penalised_incidents": 1,
+        "trust_status": "ESTABLISHED"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F04",
+      "group": "F",
+      "kind": "TRUST",
+      "title": "F02b confirmed but externally caused → no penalty",
+      "expected": {
+        "decision": "NO_PENALTY"
+      },
+      "actual": {
+        "trust_score": 79,
+        "family_review": 80,
+        "penalised_incidents": 0,
+        "trust_status": "ESTABLISHED"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F05",
+      "group": "F",
+      "kind": "TRUST",
+      "title": "F02c dismissed incident → no penalty",
+      "expected": {
+        "decision": "NO_PENALTY"
+      },
+      "actual": {
+        "trust_score": 79,
+        "family_review": 80,
+        "penalised_incidents": 0,
+        "trust_status": "ESTABLISHED"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F06",
+      "group": "F",
+      "kind": "TRUST",
+      "title": "F04 a single 5-star review is shrunk toward the prior",
+      "expected": {
+        "decision": "SHRUNK"
+      },
+      "actual": {
+        "trust_score": 77.5,
+        "family_review": 75,
+        "penalised_incidents": 0,
+        "trust_status": "NEW"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F07",
+      "group": "F",
+      "kind": "TRUST",
+      "title": "F04b many 5-star reviews approach the ceiling",
+      "expected": {
+        "decision": "HIGH_REVIEW"
+      },
+      "actual": {
+        "trust_score": 84.18,
+        "family_review": 97.27,
+        "penalised_incidents": 0,
+        "trust_status": "ESTABLISHED"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F08",
+      "group": "F",
+      "kind": "TRUST",
+      "title": "F05 zero completed jobs → NEW status",
+      "expected": {
+        "decision": "COLD_START"
+      },
+      "actual": {
+        "trust_score": 79,
+        "family_review": 80,
+        "penalised_incidents": 0,
+        "trust_status": "NEW"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F09",
+      "group": "F",
+      "kind": "TRUST",
+      "title": "F05b enough completed jobs → ESTABLISHED",
+      "expected": {
+        "decision": "ESTABLISHED"
+      },
+      "actual": {
+        "trust_score": 78.95,
+        "family_review": 79.82,
+        "penalised_incidents": 0,
+        "trust_status": "ESTABLISHED"
+      },
+      "pass": true,
+      "detail": null
+    },
+    {
+      "case_id": "F10",
+      "group": "F",
+      "kind": "RANKING",
+      "title": "F03 a previous successful pair with rebook scores above a fresh pair",
+      "expected": {
+        "comparison": "GT",
+        "score": "base_family_fit",
+        "winner": "CG-REBOOK",
+        "loser": "CG-FRESH"
+      },
+      "actual": {
+        "winner": 98.47,
+        "loser": 95.69
+      },
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

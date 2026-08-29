@@ -1,0 +1,720 @@
+{
+ "global_ordering": [
+  "p1",
+  "p2",
+  "p3",
+  "p4",
+  "p5",
+  "p6",
+  "p7",
+  "p8",
+  "p9",
+  "p10",
+  "p11",
+  "p12",
+  "p13",
+  "p14",
+  "p15",
+  "p16",
+  "p17",
+  "p18",
+  "p19",
+  "p20",
+  "p21",
+  "p22",
+  "p23",
+  "p24",
+  "p25",
+  "p26",
+  "p27",
+  "p28",
+  "p29",
+  "p30",
+  "p31",
+  "p32",
+  "p33",
+  "p34",
+  "p35",
+  "p36",
+  "p37",
+  "p38",
+  "p39",
+  "p40",
+  "p41",
+  "p42",
+  "p43",
+  "p44",
+  "p45",
+  "p46",
+  "p47",
+  "p48",
+  "p49",
+  "p50",
+  "p51",
+  "p52",
+  "p53",
+  "p54",
+  "p55",
+  "p56",
+  "p57",
+  "p58",
+  "p59",
+  "p60",
+  "p61",
+  "p62",
+  "p63",
+  "p64",
+  "p65",
+  "p66",
+  "p67",
+  "p68",
+  "p69",
+  "p70",
+  "p71",
+  "p72",
+  "p73",
+  "p74",
+  "p75"
+ ],
+ "routes": [
+  {
+   "caregiver_id": "c1",
+   "locations": [
+    {
+     "arrival_time": 10.296,
+     "departure_time": 21.296,
+     "patient": "p46",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 71.386,
+     "departure_time": 82.386,
+     "patient": "p14",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 138,
+     "departure_time": 149,
+     "patient": "p67",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 187.471,
+     "departure_time": 198.471,
+     "patient": "p72",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 227.54,
+     "departure_time": 238.54,
+     "patient": "p40",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 279.552,
+     "departure_time": 290.552,
+     "patient": "p41",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 317.552,
+     "departure_time": 328.552,
+     "patient": "p68",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 366.827,
+     "departure_time": 377.827,
+     "patient": "p19",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 410.721,
+     "departure_time": 421.721,
+     "patient": "p10",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 424.883,
+     "departure_time": 435.883,
+     "patient": "p65",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 482.926,
+     "departure_time": 493.926,
+     "patient": "p32",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 541.053,
+     "departure_time": 552.053,
+     "patient": "p15",
+     "service": "s3"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c2",
+   "locations": [
+    {
+     "arrival_time": 24.166,
+     "departure_time": 35.166,
+     "patient": "p9",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 127,
+     "departure_time": 138,
+     "patient": "p39",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 187,
+     "departure_time": 198,
+     "patient": "p17",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 259,
+     "departure_time": 270,
+     "patient": "p44",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 342.719,
+     "departure_time": 353.719,
+     "patient": "p66",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 379,
+     "departure_time": 390,
+     "patient": "p31",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 475,
+     "departure_time": 486,
+     "patient": "p42",
+     "service": "s2"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c3",
+   "locations": [
+    {
+     "arrival_time": 35.511,
+     "departure_time": 46.511,
+     "patient": "p71",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 111.511,
+     "departure_time": 122.511,
+     "patient": "p26",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 222,
+     "departure_time": 233,
+     "patient": "p45",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 252,
+     "departure_time": 263,
+     "patient": "p2",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 355.347,
+     "departure_time": 366.347,
+     "patient": "p69",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 389.884,
+     "departure_time": 400.884,
+     "patient": "p70",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 429.676,
+     "departure_time": 440.676,
+     "patient": "p7",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 464.53,
+     "departure_time": 475.53,
+     "patient": "p6",
+     "service": "s1"
+    },
+    {
+     "arrival_time": 499.861,
+     "departure_time": 510.861,
+     "patient": "p21",
+     "service": "s1"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c4",
+   "locations": [
+    {
+     "arrival_time": 91.049,
+     "departure_time": 102.049,
+     "patient": "p11",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 203.917,
+     "departure_time": 214.917,
+     "patient": "p75",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 241.6,
+     "departure_time": 252.6,
+     "patient": "p3",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 278,
+     "departure_time": 289,
+     "patient": "p43",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 316.074,
+     "departure_time": 327.074,
+     "patient": "p36",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 386.15,
+     "departure_time": 397.15,
+     "patient": "p34",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 484.517,
+     "departure_time": 495.517,
+     "patient": "p16",
+     "service": "s3"
+    },
+    {
+     "arrival_time": 544.527,
+     "departure_time": 555.527,
+     "patient": "p12",
+     "service": "s3"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c5",
+   "locations": [
+    {
+     "arrival_time": 195,
+     "departure_time": 206,
+     "patient": "p73",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 295,
+     "departure_time": 306,
+     "patient": "p38",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 367,
+     "departure_time": 378,
+     "patient": "p33",
+     "service": "s2"
+    },
+    {
+     "arrival_time": 427,
+     "departure_time": 438,
+     "patient": "p4",
+     "service": "s2"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c6",
+   "locations": [
+    {
+     "arrival_time": 74,
+     "departure_time": 85,
+     "patient": "p61",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 156,
+     "departure_time": 167,
+     "patient": "p67",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 230,
+     "departure_time": 241,
+     "patient": "p59",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 322,
+     "departure_time": 333,
+     "patient": "p58",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 359.833,
+     "departure_time": 370.833,
+     "patient": "p37",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 431,
+     "departure_time": 442,
+     "patient": "p20",
+     "service": "s6"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c7",
+   "locations": [
+    {
+     "arrival_time": 183,
+     "departure_time": 194,
+     "patient": "p48",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 309,
+     "departure_time": 320,
+     "patient": "p5",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 399,
+     "departure_time": 410,
+     "patient": "p18",
+     "service": "s4"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c8",
+   "locations": [
+    {
+     "arrival_time": 74,
+     "departure_time": 85,
+     "patient": "p61",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 154,
+     "departure_time": 165,
+     "patient": "p13",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 239,
+     "departure_time": 250,
+     "patient": "p51",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 322,
+     "departure_time": 333,
+     "patient": "p30",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 367.347,
+     "departure_time": 378.347,
+     "patient": "p69",
+     "service": "s5"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c9",
+   "locations": [
+    {
+     "arrival_time": 334,
+     "departure_time": 345,
+     "patient": "p63",
+     "service": "s4"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c10",
+   "locations": [
+    {
+     "arrival_time": 38.833,
+     "departure_time": 49.833,
+     "patient": "p1",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 91,
+     "departure_time": 102,
+     "patient": "p54",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 142,
+     "departure_time": 153,
+     "patient": "p62",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 207,
+     "departure_time": 218,
+     "patient": "p22",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 256,
+     "departure_time": 267,
+     "patient": "p25",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 318,
+     "departure_time": 329,
+     "patient": "p57",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 353,
+     "departure_time": 364,
+     "patient": "p56",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 434.883,
+     "departure_time": 445.883,
+     "patient": "p65",
+     "service": "s5"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c11",
+   "locations": [
+    {
+     "arrival_time": 47,
+     "departure_time": 58,
+     "patient": "p50",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 155,
+     "departure_time": 166,
+     "patient": "p28",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 249,
+     "departure_time": 260,
+     "patient": "p73",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 321.552,
+     "departure_time": 332.552,
+     "patient": "p68",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 419,
+     "departure_time": 430,
+     "patient": "p55",
+     "service": "s6"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c12",
+   "locations": [
+    {
+     "arrival_time": 48.511,
+     "departure_time": 59.511,
+     "patient": "p71",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 91,
+     "departure_time": 102,
+     "patient": "p54",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 142,
+     "departure_time": 153,
+     "patient": "p62",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 230,
+     "departure_time": 241,
+     "patient": "p59",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 286,
+     "departure_time": 297,
+     "patient": "p52",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 334,
+     "departure_time": 345,
+     "patient": "p63",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 419,
+     "departure_time": 430,
+     "patient": "p55",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 454,
+     "departure_time": 465,
+     "patient": "p47",
+     "service": "s5"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c13",
+   "locations": [
+    {
+     "arrival_time": 61.984,
+     "departure_time": 72.984,
+     "patient": "p8",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 136,
+     "departure_time": 147,
+     "patient": "p49",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 202,
+     "departure_time": 213,
+     "patient": "p27",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 273,
+     "departure_time": 284,
+     "patient": "p29",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 322,
+     "departure_time": 333,
+     "patient": "p58",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 353,
+     "departure_time": 364,
+     "patient": "p56",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 377.601,
+     "departure_time": 388.601,
+     "patient": "p23",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 442,
+     "departure_time": 453,
+     "patient": "p24",
+     "service": "s5"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c14",
+   "locations": [
+    {
+     "arrival_time": 58,
+     "departure_time": 69,
+     "patient": "p53",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 113,
+     "departure_time": 124,
+     "patient": "p60",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 250.917,
+     "departure_time": 261.917,
+     "patient": "p75",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 318,
+     "departure_time": 329,
+     "patient": "p57",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 433.884,
+     "departure_time": 444.884,
+     "patient": "p70",
+     "service": "s6"
+    }
+   ]
+  },
+  {
+   "caregiver_id": "c15",
+   "locations": [
+    {
+     "arrival_time": 58,
+     "departure_time": 69,
+     "patient": "p53",
+     "service": "s6"
+    },
+    {
+     "arrival_time": 113,
+     "departure_time": 124,
+     "patient": "p60",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 240.471,
+     "departure_time": 251.471,
+     "patient": "p72",
+     "service": "s5"
+    },
+    {
+     "arrival_time": 379.719,
+     "departure_time": 390.719,
+     "patient": "p66",
+     "service": "s4"
+    },
+    {
+     "arrival_time": 430,
+     "departure_time": 441,
+     "patient": "p35",
+     "service": "s5"
+    }
+   ]
+  }
+ ]
+}

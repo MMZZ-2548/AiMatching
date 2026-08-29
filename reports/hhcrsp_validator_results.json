@@ -1,0 +1,1719 @@
+{
+  "summary": {
+    "validator": "iolab-uniud/hhcrsp validator (upstream, MIT) \u2014 not written by TrustCare",
+    "solutions_submitted": 341,
+    "judged": 125,
+    "valid": 125,
+    "invalid": 0,
+    "skipped_incomplete_coverage": 216,
+    "validator_pass_rate_pct": 100.0,
+    "note": "The upstream validator requires every patient in an instance to be served before it will assess constraints, so instances our greedy policy left partially covered cannot be judged. Coverage is a property of that policy; this figure is about whether the assignments actually made satisfy the published constraints."
+  },
+  "results": [
+    {
+      "instance": "HHCRSP_100_20_10_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 1846.0
+    },
+    {
+      "instance": "HHCRSP_100_20_11_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 2948.0
+    },
+    {
+      "instance": "HHCRSP_100_20_23_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 2654.0
+    },
+    {
+      "instance": "HHCRSP_100_20_25_0.8_R_C",
+      "status": "VALID",
+      "distance_traveled": 3509.0
+    },
+    {
+      "instance": "HHCRSP_100_20_30_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 3286.0
+    },
+    {
+      "instance": "HHCRSP_100_20_35_1.6_C_RC",
+      "status": "VALID",
+      "distance_traveled": 2665.0
+    },
+    {
+      "instance": "HHCRSP_100_20_39_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 3196.0
+    },
+    {
+      "instance": "HHCRSP_100_20_49_0.4_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_100_20_54_1.2_R_RC",
+      "status": "VALID",
+      "distance_traveled": 2643.0
+    },
+    {
+      "instance": "HHCRSP_100_20_57_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 3004.0
+    },
+    {
+      "instance": "HHCRSP_100_20_61_0.4_R_RC",
+      "status": "VALID",
+      "distance_traveled": 2716.0
+    },
+    {
+      "instance": "HHCRSP_100_20_63_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 3139.0
+    },
+    {
+      "instance": "HHCRSP_100_20_65_0.4_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_100_20_68_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 2004.0
+    },
+    {
+      "instance": "HHCRSP_100_20_76_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 2697.0
+    },
+    {
+      "instance": "HHCRSP_100_20_77_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 3793.0
+    },
+    {
+      "instance": "HHCRSP_100_20_88_1.2_C_C",
+      "status": "VALID",
+      "distance_traveled": 1559.0
+    },
+    {
+      "instance": "HHCRSP_100_20_8_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 3501.0
+    },
+    {
+      "instance": "HHCRSP_100_20_99_0.4_C_RC",
+      "status": "VALID",
+      "distance_traveled": 2787.0
+    },
+    {
+      "instance": "HHCRSP_100_20_9_1.0_R_R",
+      "status": "VALID",
+      "distance_traveled": 3077.0
+    },
+    {
+      "instance": "HHCRSP_10_3_11_0.4_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_10_3_16_1.6_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_10_3_22_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 266.0
+    },
+    {
+      "instance": "HHCRSP_10_3_35_1.0_R_R",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 4
+    },
+    {
+      "instance": "HHCRSP_10_3_40_0.8_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_10_3_40_1.0_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_10_3_46_1.6_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_10_3_51_1.0_R_RC",
+      "status": "VALID",
+      "distance_traveled": 341.0
+    },
+    {
+      "instance": "HHCRSP_10_3_60_1.0_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_10_3_81_1.2_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "HHCRSP_10_3_86_1.2_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 4
+    },
+    {
+      "instance": "HHCRSP_10_3_88_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 415.0
+    },
+    {
+      "instance": "HHCRSP_10_3_88_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 415.0
+    },
+    {
+      "instance": "HHCRSP_10_3_88_1.6_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_10_3_88_1.6_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_10_3_90_1.2_C_C",
+      "status": "VALID",
+      "distance_traveled": 201.0
+    },
+    {
+      "instance": "HHCRSP_10_3_90_1.2_C_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_10_3_96_1.0_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_200_40_100_0.4_C_C",
+      "status": "VALID",
+      "distance_traveled": 4562.0
+    },
+    {
+      "instance": "HHCRSP_200_40_10_1.6_C_RC",
+      "status": "VALID",
+      "distance_traveled": 5296.0
+    },
+    {
+      "instance": "HHCRSP_200_40_17_1.6_C_C",
+      "status": "VALID",
+      "distance_traveled": 4561.0
+    },
+    {
+      "instance": "HHCRSP_200_40_17_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 5808.0
+    },
+    {
+      "instance": "HHCRSP_200_40_30_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 5411.0
+    },
+    {
+      "instance": "HHCRSP_200_40_40_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 5144.0
+    },
+    {
+      "instance": "HHCRSP_200_40_51_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 6656.0
+    },
+    {
+      "instance": "HHCRSP_200_40_52_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 5249.0
+    },
+    {
+      "instance": "HHCRSP_200_40_60_0.4_C_RC",
+      "status": "VALID",
+      "distance_traveled": 5420.0
+    },
+    {
+      "instance": "HHCRSP_200_40_69_1.0_C_R",
+      "status": "VALID",
+      "distance_traveled": 5540.0
+    },
+    {
+      "instance": "HHCRSP_200_40_71_1.6_C_C",
+      "status": "VALID",
+      "distance_traveled": 3204.0
+    },
+    {
+      "instance": "HHCRSP_200_40_71_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 4752.0
+    },
+    {
+      "instance": "HHCRSP_200_40_75_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 4816.0
+    },
+    {
+      "instance": "HHCRSP_200_40_76_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 6377.0
+    },
+    {
+      "instance": "HHCRSP_200_40_7_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 5591.0
+    },
+    {
+      "instance": "HHCRSP_200_40_7_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 5110.0
+    },
+    {
+      "instance": "HHCRSP_200_40_80_1.0_C_C",
+      "status": "VALID",
+      "distance_traveled": 4371.0
+    },
+    {
+      "instance": "HHCRSP_200_40_82_1.0_C_R",
+      "status": "VALID",
+      "distance_traveled": 5549.0
+    },
+    {
+      "instance": "HHCRSP_200_40_98_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 5228.0
+    },
+    {
+      "instance": "HHCRSP_200_40_98_1.6_C_RC",
+      "status": "VALID",
+      "distance_traveled": 5091.0
+    },
+    {
+      "instance": "HHCRSP_25_5_21_1.6_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_25_5_22_1.0_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 9
+    },
+    {
+      "instance": "HHCRSP_25_5_26_0.8_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 8
+    },
+    {
+      "instance": "HHCRSP_25_5_37_0.8_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 9
+    },
+    {
+      "instance": "HHCRSP_25_5_37_1.0_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 9
+    },
+    {
+      "instance": "HHCRSP_25_5_42_0.8_C_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "HHCRSP_25_5_42_0.8_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 8
+    },
+    {
+      "instance": "HHCRSP_25_5_47_0.8_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "HHCRSP_25_5_48_1.0_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_25_5_49_0.4_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "HHCRSP_25_5_56_0.8_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "HHCRSP_25_5_69_1.6_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 10
+    },
+    {
+      "instance": "HHCRSP_25_5_69_1.6_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 8
+    },
+    {
+      "instance": "HHCRSP_25_5_6_0.8_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "HHCRSP_25_5_70_1.0_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_25_5_73_0.4_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_25_5_76_1.2_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 4
+    },
+    {
+      "instance": "HHCRSP_25_5_80_0.8_C_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 4
+    },
+    {
+      "instance": "HHCRSP_25_5_96_0.8_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 6
+    },
+    {
+      "instance": "HHCRSP_25_5_97_1.0_R_R",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "HHCRSP_300_60_22_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 8438.0
+    },
+    {
+      "instance": "HHCRSP_300_60_23_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 7453.0
+    },
+    {
+      "instance": "HHCRSP_300_60_26_0.4_C_RC",
+      "status": "VALID",
+      "distance_traveled": 7895.0
+    },
+    {
+      "instance": "HHCRSP_300_60_34_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 9143.0
+    },
+    {
+      "instance": "HHCRSP_300_60_45_1.6_C_C",
+      "status": "VALID",
+      "distance_traveled": 5284.0
+    },
+    {
+      "instance": "HHCRSP_300_60_46_0.4_R_C",
+      "status": "VALID",
+      "distance_traveled": 6852.0
+    },
+    {
+      "instance": "HHCRSP_300_60_48_0.8_C_C",
+      "status": "VALID",
+      "distance_traveled": 6085.0
+    },
+    {
+      "instance": "HHCRSP_300_60_4_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 6476.0
+    },
+    {
+      "instance": "HHCRSP_300_60_4_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 9620.0
+    },
+    {
+      "instance": "HHCRSP_300_60_68_0.8_C_RC",
+      "status": "VALID",
+      "distance_traveled": 7207.0
+    },
+    {
+      "instance": "HHCRSP_300_60_69_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 8385.0
+    },
+    {
+      "instance": "HHCRSP_300_60_73_0.8_R_RC",
+      "status": "VALID",
+      "distance_traveled": 7409.0
+    },
+    {
+      "instance": "HHCRSP_300_60_75_1.2_C_RC",
+      "status": "VALID",
+      "distance_traveled": 6980.0
+    },
+    {
+      "instance": "HHCRSP_300_60_7_1.2_R_RC",
+      "status": "VALID",
+      "distance_traveled": 8238.0
+    },
+    {
+      "instance": "HHCRSP_300_60_81_0.8_C_C",
+      "status": "VALID",
+      "distance_traveled": 5683.0
+    },
+    {
+      "instance": "HHCRSP_300_60_81_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 7136.0
+    },
+    {
+      "instance": "HHCRSP_300_60_82_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 8794.0
+    },
+    {
+      "instance": "HHCRSP_300_60_85_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 7344.0
+    },
+    {
+      "instance": "HHCRSP_300_60_89_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 8588.0
+    },
+    {
+      "instance": "HHCRSP_300_60_95_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 9175.0
+    },
+    {
+      "instance": "HHCRSP_400_80_16_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 11307.0
+    },
+    {
+      "instance": "HHCRSP_400_80_20_0.4_C_RC",
+      "status": "VALID",
+      "distance_traveled": 9719.0
+    },
+    {
+      "instance": "HHCRSP_400_80_22_1.6_C_C",
+      "status": "VALID",
+      "distance_traveled": 6676.0
+    },
+    {
+      "instance": "HHCRSP_400_80_28_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 11100.0
+    },
+    {
+      "instance": "HHCRSP_400_80_30_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 10549.0
+    },
+    {
+      "instance": "HHCRSP_400_80_33_1.0_C_RC",
+      "status": "VALID",
+      "distance_traveled": 9837.0
+    },
+    {
+      "instance": "HHCRSP_400_80_34_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 10909.0
+    },
+    {
+      "instance": "HHCRSP_400_80_45_0.4_C_C",
+      "status": "VALID",
+      "distance_traveled": 7749.0
+    },
+    {
+      "instance": "HHCRSP_400_80_51_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 11657.0
+    },
+    {
+      "instance": "HHCRSP_400_80_54_1.2_C_RC",
+      "status": "VALID",
+      "distance_traveled": 10111.0
+    },
+    {
+      "instance": "HHCRSP_400_80_59_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 11239.0
+    },
+    {
+      "instance": "HHCRSP_400_80_60_0.8_C_C",
+      "status": "VALID",
+      "distance_traveled": 7402.0
+    },
+    {
+      "instance": "HHCRSP_400_80_61_0.4_C_RC",
+      "status": "VALID",
+      "distance_traveled": 10009.0
+    },
+    {
+      "instance": "HHCRSP_400_80_65_1.0_C_R",
+      "status": "VALID",
+      "distance_traveled": 10208.0
+    },
+    {
+      "instance": "HHCRSP_400_80_77_1.2_R_RC",
+      "status": "VALID",
+      "distance_traveled": 9135.0
+    },
+    {
+      "instance": "HHCRSP_400_80_81_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 9692.0
+    },
+    {
+      "instance": "HHCRSP_400_80_91_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 10815.0
+    },
+    {
+      "instance": "HHCRSP_400_80_92_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 9466.0
+    },
+    {
+      "instance": "HHCRSP_400_80_95_1.0_C_R",
+      "status": "VALID",
+      "distance_traveled": 9506.0
+    },
+    {
+      "instance": "HHCRSP_400_80_97_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 9884.0
+    },
+    {
+      "instance": "HHCRSP_50_10_100_1.6_C_C",
+      "status": "VALID",
+      "distance_traveled": 918.0
+    },
+    {
+      "instance": "HHCRSP_50_10_26_1.0_C_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "HHCRSP_50_10_26_1.2_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_50_10_2_1.0_C_R",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "HHCRSP_50_10_32_1.2_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "HHCRSP_50_10_33_0.4_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_50_10_3_0.8_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 6
+    },
+    {
+      "instance": "HHCRSP_50_10_3_1.6_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_50_10_44_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 1390.0
+    },
+    {
+      "instance": "HHCRSP_50_10_53_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 1161.0
+    },
+    {
+      "instance": "HHCRSP_50_10_60_0.4_C_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_50_10_61_1.0_R_RC",
+      "status": "VALID",
+      "distance_traveled": 1356.0
+    },
+    {
+      "instance": "HHCRSP_50_10_62_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 1060.0
+    },
+    {
+      "instance": "HHCRSP_50_10_74_1.0_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "HHCRSP_50_10_80_0.4_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "HHCRSP_50_10_80_1.0_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "HHCRSP_50_10_80_1.0_C_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "HHCRSP_50_10_81_1.0_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "HHCRSP_50_10_88_1.6_C_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_50_10_97_0.8_C_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "HHCRSP_75_15_10_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 1873.0
+    },
+    {
+      "instance": "HHCRSP_75_15_19_0.8_R_C",
+      "status": "VALID",
+      "distance_traveled": 2028.0
+    },
+    {
+      "instance": "HHCRSP_75_15_21_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 2306.0
+    },
+    {
+      "instance": "HHCRSP_75_15_30_1.0_R_C",
+      "status": "VALID",
+      "distance_traveled": 1828.0
+    },
+    {
+      "instance": "HHCRSP_75_15_32_1.2_R_RC",
+      "status": "VALID",
+      "distance_traveled": 1945.0
+    },
+    {
+      "instance": "HHCRSP_75_15_35_0.8_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "HHCRSP_75_15_35_1.0_C_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "HHCRSP_75_15_40_0.8_R_RC",
+      "status": "VALID",
+      "distance_traveled": 2237.0
+    },
+    {
+      "instance": "HHCRSP_75_15_5_0.8_C_RC",
+      "status": "VALID",
+      "distance_traveled": 2424.0
+    },
+    {
+      "instance": "HHCRSP_75_15_63_0.4_R_C",
+      "status": "VALID",
+      "distance_traveled": 1789.0
+    },
+    {
+      "instance": "HHCRSP_75_15_63_1.0_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_75_15_65_1.0_C_C",
+      "status": "VALID",
+      "distance_traveled": 1590.0
+    },
+    {
+      "instance": "HHCRSP_75_15_79_1.2_R_C",
+      "status": "VALID",
+      "distance_traveled": 2455.0
+    },
+    {
+      "instance": "HHCRSP_75_15_84_0.8_R_RC",
+      "status": "VALID",
+      "distance_traveled": 2124.0
+    },
+    {
+      "instance": "HHCRSP_75_15_87_1.6_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_75_15_88_1.6_R_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "HHCRSP_75_15_97_0.4_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "HHCRSP_75_15_97_1.0_C_C",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 6
+    },
+    {
+      "instance": "HHCRSP_75_15_97_1.0_R_RC",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "HHCRSP_75_15_98_1.6_R_C",
+      "status": "VALID",
+      "distance_traveled": 1857.0
+    },
+    {
+      "instance": "instance_000-cosenza-r26-p299-s4-sim1.6-seq5.7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 23
+    },
+    {
+      "instance": "instance_001-florence-r19-p165-s3-sim20.3-seq22.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 21
+    },
+    {
+      "instance": "instance_002-venice-r11-p229-s4-sim23.9-seq24.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 22
+    },
+    {
+      "instance": "instance_003-rome-r19-p44-s4-sim22.3-seq22.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "instance_004-venice-padua-treviso-r26-p258-s3-sim14.0-seq4.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 25
+    },
+    {
+      "instance": "instance_005-macerata-r29-p212-s2-sim9.1-seq7.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 15
+    },
+    {
+      "instance": "instance_006-cosenza-r30-p213-s5-sim20.5-seq8.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 29
+    },
+    {
+      "instance": "instance_007-venice-r29-p297-s3-sim2.9-seq7.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "instance_008-cesena-r32-p247-s4-sim12.3-seq20.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 27
+    },
+    {
+      "instance": "instance_009-reggio-emilia-r15-p55-s2-sim21.7-seq7.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 10
+    },
+    {
+      "instance": "instance_010-milan-r15-p76-s2-sim17.7-seq13.7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 15
+    },
+    {
+      "instance": "instance_011-perugia-r33-p181-s4-sim5.3-seq11.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 23
+    },
+    {
+      "instance": "instance_012-cesena-r37-p130-s2-sim4.0-seq20.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 14
+    },
+    {
+      "instance": "instance_013-macerata-r15-p131-s5-sim22.9-seq13.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 16
+    },
+    {
+      "instance": "instance_014-perugia-r29-p213-s3-sim20.1-seq22.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 26
+    },
+    {
+      "instance": "instance_015-cesena-r15-p73-s2-sim20.2-seq15.8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 12
+    },
+    {
+      "instance": "instance_016-macerata-r11-p145-s3-sim14.2-seq0.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 14
+    },
+    {
+      "instance": "instance_017-rome-r26-p101-s3-sim9.8-seq3.7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "instance_018-udine-r17-p356-s3-sim21.2-seq21.7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 44
+    },
+    {
+      "instance": "instance_019-cesena-r18-p203-s4-sim21.7-seq21.3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 25
+    },
+    {
+      "instance": "instance_020-cesena-r15-p78-s3-sim23.4-seq24.3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 12
+    },
+    {
+      "instance": "instance_021-florence-r26-p323-s3-sim18.1-seq12.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 36
+    },
+    {
+      "instance": "instance_022-reggio-emilia-r29-p255-s2-sim10.7-seq15.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 35
+    },
+    {
+      "instance": "instance_023-udine-r15-p75-s3-sim8.1-seq23.0",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 9
+    },
+    {
+      "instance": "instance_024-perugia-r25-p270-s2-sim4.2-seq8.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 24
+    },
+    {
+      "instance": "instance_025-cesena-r18-p45-s5-sim18.9-seq12.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "instance_026-cosenza-r17-p191-s2-sim1.3-seq18.0",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 20
+    },
+    {
+      "instance": "instance_027-venice-padua-treviso-r10-p157-s4-sim24.3-seq23.8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 19
+    },
+    {
+      "instance": "instance_028-venice-padua-treviso-r32-p378-s4-sim4.6-seq14.7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 35
+    },
+    {
+      "instance": "instance_029-macerata-r21-p100-s3-sim1.5-seq2.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 12
+    },
+    {
+      "instance": "instance_030-udine-r20-p145-s2-sim20.8-seq10.0",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 15
+    },
+    {
+      "instance": "instance_031-cesena-r28-p280-s5-sim11.8-seq19.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 27
+    },
+    {
+      "instance": "instance_032-venice-r21-p310-s5-sim0.1-seq12.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 9
+    },
+    {
+      "instance": "instance_033-reggio-emilia-r32-p132-s5-sim16.4-seq18.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 12
+    },
+    {
+      "instance": "instance_034-reggio-emilia-r27-p53-s3-sim6.9-seq17.3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 6
+    },
+    {
+      "instance": "instance_035-venice-r32-p299-s3-sim13.1-seq18.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 24
+    },
+    {
+      "instance": "instance_036-udine-r12-p255-s4-sim4.2-seq4.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 10
+    },
+    {
+      "instance": "instance_037-reggio-emilia-r40-p369-s4-sim0.3-seq22.0",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 34
+    },
+    {
+      "instance": "instance_038-udine-r33-p188-s3-sim1.5-seq0.8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 25
+    },
+    {
+      "instance": "instance_039-cosenza-r16-p139-s3-sim7.9-seq9.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 24
+    },
+    {
+      "instance": "instance_040-macerata-r31-p112-s5-sim21.4-seq1.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 14
+    },
+    {
+      "instance": "instance_041-macerata-r36-p87-s5-sim20.7-seq14.0",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 18
+    },
+    {
+      "instance": "instance_042-milan-r11-p242-s2-sim4.2-seq0.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 30
+    },
+    {
+      "instance": "instance_043-milan-r29-p100-s4-sim7.0-seq5.0",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 18
+    },
+    {
+      "instance": "instance_044-rome-r38-p152-s5-sim0.3-seq23.3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 27
+    },
+    {
+      "instance": "instance_045-perugia-r37-p392-s4-sim25.0-seq12.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 35
+    },
+    {
+      "instance": "instance_046-venice-padua-treviso-r32-p190-s3-sim5.6-seq18.8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 9
+    },
+    {
+      "instance": "instance_047-cesena-r29-p106-s2-sim4.3-seq5.8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 14
+    },
+    {
+      "instance": "instance_048-cesena-r17-p216-s3-sim3.2-seq10.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 32
+    },
+    {
+      "instance": "instance_049-venice-padua-treviso-r20-p363-s5-sim12.8-seq22.3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 45
+    },
+    {
+      "instance": "instance_050-rome-r14-p394-s5-sim8.4-seq1.7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 35
+    },
+    {
+      "instance": "instance_051-cesena-r23-p166-s4-sim24.1-seq5.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 18
+    },
+    {
+      "instance": "instance_052-venice-r14-p326-s4-sim9.9-seq23.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 19
+    },
+    {
+      "instance": "instance_053-macerata-r20-p101-s2-sim4.4-seq16.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 15
+    },
+    {
+      "instance": "instance_054-cosenza-r13-p52-s4-sim17.7-seq7.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "instance_055-florence-r38-p54-s3-sim5.1-seq9.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 11
+    },
+    {
+      "instance": "instance_056-milan-r31-p59-s5-sim4.0-seq2.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 10
+    },
+    {
+      "instance": "instance_057-macerata-r38-p287-s4-sim11.4-seq7.7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 28
+    },
+    {
+      "instance": "instance_058-venice-r17-p128-s3-sim5.5-seq12.8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 15
+    },
+    {
+      "instance": "instance_059-macerata-r35-p207-s2-sim15.5-seq11.7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 24
+    },
+    {
+      "instance": "instance_060-venice-padua-treviso-r35-p164-s5-sim23.4-seq6.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "instance_061-udine-r34-p241-s2-sim11.1-seq21.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 33
+    },
+    {
+      "instance": "instance_062-florence-r24-p47-s4-sim5.6-seq21.3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 6
+    },
+    {
+      "instance": "instance_063-venice-r33-p349-s3-sim9.0-seq21.7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 11
+    },
+    {
+      "instance": "instance_064-rome-r25-p206-s4-sim12.2-seq1.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 22
+    },
+    {
+      "instance": "instance_065-cosenza-r30-p211-s3-sim7.1-seq24.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 21
+    },
+    {
+      "instance": "instance_066-venice-r12-p257-s5-sim3.3-seq10.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 12
+    },
+    {
+      "instance": "instance_067-udine-r25-p261-s4-sim0.5-seq17.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 32
+    },
+    {
+      "instance": "instance_068-florence-r20-p347-s4-sim12.2-seq20.8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 38
+    },
+    {
+      "instance": "instance_069-udine-r31-p195-s3-sim20.3-seq24.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 33
+    },
+    {
+      "instance": "instance_070-perugia-r18-p282-s3-sim2.0-seq8.8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 21
+    },
+    {
+      "instance": "instance_071-rome-r22-p292-s4-sim7.7-seq23.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 28
+    },
+    {
+      "instance": "instance_072-cesena-r40-p153-s5-sim20.1-seq20.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 12
+    },
+    {
+      "instance": "instance_073-udine-r19-p92-s4-sim10.9-seq11.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 18
+    },
+    {
+      "instance": "instance_074-milan-r24-p241-s5-sim3.6-seq10.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 30
+    },
+    {
+      "instance": "instance_075-cesena-r36-p283-s5-sim10.8-seq9.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 41
+    },
+    {
+      "instance": "instance_076-florence-r26-p134-s4-sim24.1-seq19.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 14
+    },
+    {
+      "instance": "instance_077-macerata-r38-p118-s4-sim15.5-seq15.0",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 20
+    },
+    {
+      "instance": "instance_078-perugia-r29-p94-s2-sim24.4-seq18.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 16
+    },
+    {
+      "instance": "instance_079-macerata-r19-p133-s5-sim7.2-seq8.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 14
+    },
+    {
+      "instance": "instance_080-venice-r36-p382-s4-sim18.8-seq9.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 28
+    },
+    {
+      "instance": "instance_081-venice-padua-treviso-r10-p206-s2-sim11.9-seq12.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 28
+    },
+    {
+      "instance": "instance_082-cosenza-r39-p162-s3-sim18.0-seq17.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 25
+    },
+    {
+      "instance": "instance_083-udine-r21-p63-s4-sim24.3-seq15.8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 8
+    },
+    {
+      "instance": "instance_084-venice-padua-treviso-r11-p128-s4-sim13.2-seq16.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 18
+    },
+    {
+      "instance": "instance_085-venice-padua-treviso-r33-p114-s5-sim24.3-seq8.3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 15
+    },
+    {
+      "instance": "instance_086-cosenza-r30-p283-s2-sim11.2-seq3.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 26
+    },
+    {
+      "instance": "instance_087-venice-r32-p386-s2-sim7.3-seq24.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 35
+    },
+    {
+      "instance": "instance_088-venice-r25-p355-s5-sim12.7-seq17.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 18
+    },
+    {
+      "instance": "instance_089-cesena-r19-p279-s4-sim11.6-seq5.3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 20
+    },
+    {
+      "instance": "instance_090-venice-r28-p231-s4-sim6.8-seq13.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 19
+    },
+    {
+      "instance": "instance_091-udine-r31-p78-s4-sim16.1-seq21.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 12
+    },
+    {
+      "instance": "instance_092-venice-r19-p92-s2-sim11.7-seq11.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 4
+    },
+    {
+      "instance": "instance_093-rome-r10-p46-s2-sim6.4-seq11.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "instance_094-venice-padua-treviso-r11-p50-s3-sim1.6-seq12.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 6
+    },
+    {
+      "instance": "instance_095-venice-r38-p196-s3-sim3.4-seq11.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "instance_096-cesena-r31-p124-s5-sim15.6-seq20.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 17
+    },
+    {
+      "instance": "instance_097-macerata-r38-p55-s3-sim18.5-seq11.5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 10
+    },
+    {
+      "instance": "instance_098-rome-r20-p57-s4-sim3.4-seq2.0",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 14
+    },
+    {
+      "instance": "instance_099-cosenza-r20-p358-s5-sim17.3-seq9.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 45
+    },
+    {
+      "instance": "instance_100-venice-padua-treviso-r37-p204-s5-sim17.0-seq17.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 17
+    },
+    {
+      "instance": "instance_101-perugia-r22-p86-s5-sim10.4-seq21.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 12
+    },
+    {
+      "instance": "instance_102-milan-r40-p181-s4-sim1.3-seq16.3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 13
+    },
+    {
+      "instance": "instance_103-cosenza-r24-p265-s5-sim3.9-seq19.4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 14
+    },
+    {
+      "instance": "instance_104-florence-r38-p348-s2-sim21.9-seq21.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 13
+    },
+    {
+      "instance": "instance_105-udine-r31-p60-s2-sim1.1-seq21.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 8
+    },
+    {
+      "instance": "instance_106-florence-r21-p219-s3-sim4.0-seq0.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 13
+    },
+    {
+      "instance": "instance_107-venice-padua-treviso-r33-p326-s4-sim3.4-seq13.1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 20
+    },
+    {
+      "instance": "instance_108-milan-r20-p145-s5-sim3.6-seq2.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 18
+    },
+    {
+      "instance": "instance_109-reggio-emilia-r11-p48-s5-sim24.7-seq1.0",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 11
+    },
+    {
+      "instance": "instance_110-venice-padua-treviso-r36-p152-s2-sim5.2-seq20.9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 11
+    },
+    {
+      "instance": "instance_111-venice-r33-p265-s2-sim1.7-seq23.6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 28
+    },
+    {
+      "instance": "instance_112-cesena-r40-p45-s5-sim24.5-seq15.2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_10",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_2",
+      "status": "VALID",
+      "distance_traveled": 744.381
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_6",
+      "status": "VALID",
+      "distance_traveled": 600.478
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_10_9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_10",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 4
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_25_9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_10",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 4
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 5
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 9
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_7",
+      "status": "VALID",
+      "distance_traveled": 2493.655
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_50_9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 6
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_10",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 10
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 6
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_5",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 2
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_6",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_7",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_8",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzCPLEX_HCSRP_75_9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 7
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_10",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_2",
+      "status": "VALID",
+      "distance_traveled": 5672.66
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_3",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_4",
+      "status": "VALID",
+      "distance_traveled": 4575.195
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_5",
+      "status": "VALID",
+      "distance_traveled": 5205.223
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_6",
+      "status": "VALID",
+      "distance_traveled": 4795.665
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_7",
+      "status": "VALID",
+      "distance_traveled": 4083.111
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_8",
+      "status": "VALID",
+      "distance_traveled": 4336.453
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_100_9",
+      "status": "VALID",
+      "distance_traveled": 5346.216
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_1",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_10",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 3
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_2",
+      "status": "VALID",
+      "distance_traveled": 8542.337
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_3",
+      "status": "VALID",
+      "distance_traveled": 7718.492
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_4",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_5",
+      "status": "VALID",
+      "distance_traveled": 8297.208
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_6",
+      "status": "VALID",
+      "distance_traveled": 8303.454
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_7",
+      "status": "VALID",
+      "distance_traveled": 7567.259
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_8",
+      "status": "VALID",
+      "distance_traveled": 7103.162
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_200_9",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_1",
+      "status": "VALID",
+      "distance_traveled": 11547.526
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_10",
+      "status": "VALID",
+      "distance_traveled": 11218.136
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_2",
+      "status": "SKIPPED_INCOMPLETE_COVERAGE",
+      "unserved_patients": 1
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_3",
+      "status": "VALID",
+      "distance_traveled": 9800.319
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_4",
+      "status": "VALID",
+      "distance_traveled": 10036.55
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_5",
+      "status": "VALID",
+      "distance_traveled": 11609.351
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_6",
+      "status": "VALID",
+      "distance_traveled": 10485.573
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_7",
+      "status": "VALID",
+      "distance_traveled": 10291.213
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_8",
+      "status": "VALID",
+      "distance_traveled": 10070.02
+    },
+    {
+      "instance": "InstanzVNS_HCSRP_300_9",
+      "status": "VALID",
+      "distance_traveled": 11240.745
+    }
+  ]
+}
